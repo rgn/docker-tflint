@@ -27,5 +27,5 @@ RUN apk add --no-cache ca-certificates curl bash unzip \
 
 COPY entrypoint.sh /usr/local/bin/
 
-ENTRYPOINT ["entrypoint.sh"]
+ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
 WORKDIR /src
