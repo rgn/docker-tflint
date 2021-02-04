@@ -1,4 +1,4 @@
-FROM tvdgnr/tflint:0.24.1
+FROM tvdgnr/tflint:base-latest
 
 COPY entrypoint.sh /usr/local/bin/
 
